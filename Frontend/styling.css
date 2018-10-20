@@ -117,3 +117,37 @@ a{
     text-decoration: none;
     color:black;
 }
+#formspace{
+    float: left;
+    background-color: #25AAE2;
+    border: 5px solid  #25AAE2;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 60px;
+}
+form p{
+    font-family: Soleil;
+    font-size: 110%;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 0.08em;
+}
+input[type=email]{
+    font-size: 110%;
+    padding-top :10px;
+    padding-bottom: 10px;
+    padding-right: 32px;
+    padding-left: 32px;
+    width: 348.6px;
+}
+input[type=submit]{
+   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    font-size: 110%;
+    color: white;
+    padding-top: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+    width: 417.6px;
+    cursor: pointer;
+}
